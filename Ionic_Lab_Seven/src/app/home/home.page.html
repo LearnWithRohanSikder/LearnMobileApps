@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Provinces Of Ireland
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="medium">Provinces Of Ireland</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ul>
+    <li [routerLink]="['/ulster']" routerDirection="forward" >Ulster</li>
+    <li [routerLink]="['/munster']" routerDirection="forward">Munster</li>
+    <li [routerLink]="['/connaught']" routerDirection="forward">Connacht</li>
+    <li  [routerLink]="['/leinster']" routerDirection="forward">Leinster</li>
+  </ul>
+</ion-content>
